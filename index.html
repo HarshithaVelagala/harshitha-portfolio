@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshitha | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="page">
+        <aside class="sidebar">
+            <div class="profile-card">
+                <img src="./images/myPic.png" alt="Harshitha" class="profile-photo">
+                <h1>Harshitha Velagala</h1>
+                <p class="role">Web Developer</p>
+            </div>
+
+            <div class="contact-card">
+                <h2>Contact</h2>
+                <ul>
+                    <li>
+                        <span class="contact-icon">✉️</span>
+                        <div class="contact-info">
+                            <span class="contact-label">EMAIL</span>
+                            <a href="mailto:harshithavelagala2004@gmail.com">harshithavelagala2004@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">📞</span>
+                        <div class="contact-info">
+                            <span class="contact-label">PHONE</span>
+                            <a href="tel:+918179265734">+91 81792 65734</a>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">🎂</span>
+                        <div class="contact-info">
+                            <span class="contact-label">BIRTHDAY</span>
+                            <p>November 03, 2004</p>
+                        </div>
+                    </li>
+                    <li>
+                        <span class="contact-icon">📍</span>
+                        <div class="contact-info">
+                            <span class="contact-label">LOCATION</span>
+                            <p>Hyderabad, Telangana</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+
+        <input type="radio" id="tab-about" name="tab" hidden>
+        <input type="radio" id="tab-whatido" name="tab" hidden>
+        <input type="radio" id="tab-resume" name="tab" hidden>
+        <input type="radio" id="tab-portfolio" name="tab" hidden>
+        <input type="radio" id="tab-contact" name="tab" hidden>
+
+        <nav class="navbar">
+            <label for="tab-about">About</label>
+            <label for="tab-whatido">What I'm Doing</label>
+            <label for="tab-resume">Resume</label>
+            <label for="tab-portfolio">Portfolio</label>
+            <label for="tab-contact">Contact</label>
+        </nav>
+
+        <main class="main">
+            <section id="about" class="about-card toggle-section">
+                <div class="about-header">
+                    <span class="section-label">About Me</span>
+                    <h2>Hi, I’m Harshitha.</h2>
+                    <p>I’m a passionate Web Developer based in Hyderabad, India. I enjoy building modern, responsive, and user-friendly web applications using HTML, CSS, JavaScript, React, Node.js, and MongoDB.</p>
+                    <p>I am actively looking for opportunities as a Web Developer where I can apply my skills and grow as a software engineer.</p>
+                </div>
+            </section>
+
+            <section id="whatido" class="section-card toggle-section">
+                <h2>What I Do</h2>
+                <div class="cards-grid">
+                    <div class="service-card">
+                        <img src="./images/icon-designs.png" alt="Web Development">
+                        <h3>Web Development</h3>
+                        <p>Building responsive and interactive websites using HTML, CSS, JavaScript, React, and Node.js.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./images/icon-dev.png" alt="Frontend Development">
+                        <h3>Frontend Development</h3>
+                        <p>Creating clean and responsive user interfaces with modern CSS and JavaScript.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./images/icon-app.png" alt="Backend Development">
+                        <h3>Backend Development</h3>
+                        <p>Developing server-side logic, REST APIs, and database integration with Node.js and MongoDB.</p>
+                    </div>
+                    <div class="service-card">
+                        <img src="./images/icon-photo.png" alt="Web Projects">
+                        <h3>Web Projects</h3>
+                        <p>Delivering full-stack web applications and portfolio projects with polished UI and real functionality.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="resume" class="section-card toggle-section">
+                <h2>Resume</h2>
+                <div class="resume-education">
+                    <h3>Education</h3>
+                    <div class="education-item">
+                        <h4>Bachelor Of Technology (B.Tech) – Computer Science</h4>
+                        <span>2022 – 2026</span>
+                        <p>Currently pursuing my bachelor’s degree with a focus on software development, web technologies, and problem-solving. During my studies, I have worked on several projects including a full-stack Attendance Portal and a Lost & Found management system.</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Intermediate (MPC)</h4>
+                        <span>2020 – 2022</span>
+                        <p>Completed intermediate education with a focus on Mathematics, Physics, and Chemistry which helped build strong analytical and logical thinking skills.</p>
+                    </div>
+                    <div class="education-item">
+                        <h4>Secondary School Education (SSC)</h4>
+                        <span>2019 – 2020</span>
+                        <p>Completed secondary education while developing interest in computers and technology which later led me to pursue a career in web development.</p>
+                    </div>
+                </div>
+                <div class="resume-experience">
+                    <h3>Experience</h3>
+                    <div class="experience-item">
+                        <h4>Full Stack Web Development Projects</h4>
+                        <span>2024 – Present</span>
+                        <p>Working on real-world web development projects using modern technologies like HTML, CSS, JavaScript, React, Node.js, and MongoDB. Focused on building responsive, user-friendly, and scalable web applications.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h4>Attendance Portal Project</h4>
+                        <span>2024</span>
+                        <p>Developed a full-stack attendance management system using Node.js, MongoDB, and JWT authentication. The system allows teachers to mark attendance and students to view attendance reports with secure login functionality.</p>
+                    </div>
+                    <div class="experience-item">
+                        <h4>Lost & Found Web Application</h4>
+                        <span>2023</span>
+                        <p>Built a Lost & Found web application that allows users to report lost items and search for found items. Implemented authentication, responsive UI, filtering features, and database integration.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="portfolio" class="section-card toggle-section">
+                <div class="portfolio-top">
+                    <div>
+                        <span class="section-label">Portfolio</span>
+                        <h2>Portfolio</h2>
+                    </div>
+                </div>
+                <div class="portfolio-grid">
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/attendancePortal.png" alt="Attendance Portal">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Attendance Portal</h3>
+                            <span>Web development</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/LostAndFound.png" alt="Lost & Found Portal">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Lost & Found Portal</h3>
+                            <span>Web development</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/CareerGuidancePortal.png" alt="Career Guidance Website">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Career Guidance Website</h3>
+                            <span>Full stack project</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/ReactProject.png" alt="React Projects">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>React Projects</h3>
+                            <span>React</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/WebDevelopmentProject.png" alt="Web Development Projects">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Web Development Projects</h3>
+                            <span>Web development</span>
+                        </div>
+                    </article>
+                    <article class="portfolio-card">
+                        <div class="portfolio-thumb">
+                            <img src="./images/SummaryWebDev.png" alt="Summary">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3>Summary</h3>
+                            <span>Web development</span>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section id="contact" class="section-card toggle-section">
+                <h2>Contact Me</h2>
+                <div class="contact-map" style="margin-top: 24px; border-radius: 24px; overflow: hidden; border: 1px solid rgba(255,255,255,0.08); box-shadow: 0 20px 50px rgba(0,0,0,0.15);">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3807.8454874300915!2d78.35688947472486!3d17.409034788057198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9730d48d7ad5%3A0xcf15d54bf46c532a!2sHyderabad%2C%20Telangana%2C%20India!5e0!3m2!1sen!2sus!4v1700000000000"
+                        width="100%"
+                        height="320"
+                        style="border:0; display:block;"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <form class="contact-form">
+                    <div class="form-row">
+                        <input type="text" placeholder="Full name" name="name" required>
+                        <input type="email" placeholder="Email address" name="email" required>
+                    </div>
+                    <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="button-send">Send Message</button>
+                </form>
+                <p>Email: <a href="mailto:harshithavelagala2004@email.com">harshithavelagala2004@email.com</a></p>
+            </section>
+        </main>
+    </div>
+</body>
+</html>
